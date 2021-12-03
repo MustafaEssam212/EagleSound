@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
+
+
+.DiscoverContainer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.Plays{
+    border-right: 0.5px solid rgb(224, 224, 224);
+    width: 100%;
+    margin-right: 25px;
+}
+
+.HrInfo{
+    margin-top: -8px;
+    color: rgb(187, 187, 187);
+}
+
+.PeopleHead{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 10px;
+}
+
+.PeopleHead i{
+    margin-right: 2px;
+    color: gray;
+}
+
+.Person{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 330px;
+}
+
+.PersonImg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.PersonInfo {
+    display: flex;
+    gap: 5px;
+}
+.InnerDet{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+   
+}
+
+.InnerDet i{
+    color: rgb(206, 206, 206);
+}
+
+.Name a{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.PersonDet{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.FollowInput button{
+    border: .5px solid rgb(216, 216, 216);
+    outline: none;
+    background-color: transparent;
+    font-size: 13px;
+}
+
+.FollowInput button i{
+    margin-right: 2px;
+}
+
+.Likes{
+    margin-top: 20px;
+
+}
+
+.LikedImage{
+    position: relative;
+}
+
+.LikedImage img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+}
+
+.Liked{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.LikedInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.LikedInfo a{
+    text-decoration: none;
+}
+
+
+.ChannelNameDisc{
+    font-family: 'Saira Condensed', sans-serif;
+    color: rgb(182, 182, 182);
+}
+
+.ChannelNameDisc:hover{
+    color: black;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.SongNameDisc{
+    color: black;
+    font-size: 14px;
+}
+
+.SongNameDisc:hover{
+    color: black;
+}
+
+
+.LikedIcons{
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+    color: rgb(182, 182, 182);
+}
+
+.DiscPlayIcon{
+    position: absolute;
+    right: 25%;
+    top: 26%;
+    color: white;
+    background-color: #FF5500;
+    padding: 5px 5px 5px 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: none;
+}
+
+.Liked:hover #DiscIcon{
+    display: block;
+}
+
+.Plays h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.MostLikedCaro{
+    padding: 25px 0px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+ 
+}
+
+.Plays p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    color: rgb(187, 187, 187);
+}
+
+.PlayHr{
+    color: rgb(187, 187, 187);
+    margin-right: 25px;
+}
+
+.Likes{
+    
+    position: sticky;
+    top: 0;
+}
+
+.SeeAll{
+    text-decoration: none;
+}
+
+.LinkCenter{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@keyframes Info {
+    from{
+        right: -370px;
+    }to{
+        right: 0;
+    }
+}
+
+@keyframes Ree {
+    from{
+        right: 0;
+    }to{
+        right: -370px;
+        display: none;
+    }
+}
+
+.MobileInfo{
+    position: absolute;
+    background-color: white;
+    top: 105px;
+    right: 0;
+    padding: 25px 10px;
+    border-left: .5px solid rgb(216, 216, 216);
+    border-top: .5px solid rgb(216, 216, 216);
+    border-bottom: .5px solid rgb(216, 216, 216);
+    animation: Info .5s linear forwards;
+    -webkit-animation: Info .5s linear forwards;
+}
+
+.RightMenu{
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    background-color: #FF5500;
+    color: white;
+    padding: 8px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 570px) {
+    .Plays{
+        border: none;
+    }
+
+    .DiscoverInfo{
+        animation: Ree .5s linear forwards;
+        -webkit-animation: Ree .5s linear forwards;
+        position: absolute;
+        background-color: white;
+        top: 105px;
+        right: -370px;
+        padding: 25px 10px;
+        border-left: .5px solid rgb(216, 216, 216);
+        border-top: .5px solid rgb(216, 216, 216);
+        border-bottom: .5px solid rgb(216, 216, 216);
+}
+
+    .MostLikedCaro{
+        justify-content: center;
+    }
+    .RightMenu{
+        display: block;
+    }
+}

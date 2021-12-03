@@ -1,0 +1,242 @@
+.InnerPlay{
+    background-color: white;
+    margin: 0px 55px;
+    
+}
+
+.Top-Play{
+    display: flex;
+    height: 400px;
+   
+    background-image: url('../Pics/playbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TopImg{
+    height: 330px;
+    width: 330px;
+    object-fit: fill;
+    background-color: rgb(255, 255, 255);
+}
+
+.SongName-Wave{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SongName-Date{
+    display: flex;
+    align-items: center;
+    margin: 25px 35px;
+}
+
+.SongNameExist{
+    color: rgb(255, 255, 255);
+    cursor: default;
+    background-color: black;
+    width: fit-content;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 5px 10px;
+}
+
+.SongName-Date button{
+    color: white;
+    background-color: #FF5500;
+    border: none;
+    outline: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.ChannelNameTop{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    background-color: black;
+    padding: 2px 4px;
+}
+
+
+.ChannelNameTop:hover{
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+    color: white;
+}
+
+.TopPlayImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.Pwave{
+    margin: 0px 25px;
+    
+}
+
+.PlayContainer{
+    display: flex;
+    margin-top: 15px;
+}
+
+.LeftPlay{
+    width: 100%;
+    border-right: 0.5px solid rgb(224, 224, 224);
+    padding-right: 25px;
+}
+
+.Related{
+    width: 330px;
+}
+
+.PlayBtns{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.Copy-Like{
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.PlayBtns button{
+    border: .5px solid rgb(189, 189, 189);
+    outline: none;
+    background-color: transparent;
+}
+
+.PlayBtns button:nth-child(2){
+    margin-left: 0px;
+}
+
+
+
+.PlayIcons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 13px;
+    color: rgb(173, 173, 173);
+    margin-top: 10px;
+}
+
+.HrPlay{
+    margin: 0px 0px 0px 25px;
+    background-color: rgb(156, 156, 156);
+}
+
+.ProfileSongImg{
+    height: 80px;
+    width: 80px;
+}
+
+
+.Profile-Comments{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.CommentsSong{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.CommentSongP{
+    color: rgb(180, 180, 180);
+}
+
+.ProfileSong{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 25px;
+    align-self: flex-start;
+    
+}
+
+.ProfileSong img{
+    border: 1px solid gray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.ProfileSong div{
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    margin-top: -10px;
+    color: rgb(184, 184, 184);
+}
+
+.ProfileSong button{
+    border: none;
+    outline: none;
+    background-color: #FF5500;
+    color: white;
+    padding: 3px 10px;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+
+.HrComments{
+    color: gray;
+}
+
+.Comment{
+    display: flex;
+    gap: 10px;
+}
+
+.Comment img{
+   
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+.Comment div a{
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .InnerPlay{
+        margin: 0;
+    }
+}
+
+@media (max-width: 721px) {
+    .RightPlay{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .TopPlayImg{
+        display: none;
+    }
+}

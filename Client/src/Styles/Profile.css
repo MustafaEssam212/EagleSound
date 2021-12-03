@@ -1,0 +1,544 @@
+.InnerProfile{
+    background-color: white;
+    margin: 0px 55px;
+}
+
+.Cover{
+    width: 100%;
+
+}
+
+.Top-Profile {
+    position: relative;
+}
+
+.ProfilePicDiv{
+    position: absolute;
+    top: 13%;
+    left: 2.2%;
+    display: flex;
+}
+
+.ProfilePicDiv img{
+    width: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    
+    object-fit: cover;
+}
+
+.ProfileName{
+    background-color: black;
+    height: fit-content;
+    color: white;
+    font-size: 22px;
+    padding: 5px 10px;
+}
+
+
+.UploadIm2{
+    background-color: white;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    cursor: pointer;
+    transition: .2s all linear;
+    -webkit-transition: .2s all linear;
+    -moz-transition: .2s all linear;
+    -ms-transition: .2s all linear;
+    -o-transition: .2s all linear;
+    z-index: 10;
+}
+
+.UploadNewProf{
+    position: absolute;
+    left: 5.5%;
+    bottom: 4%;   
+}
+
+.UploadNewCov {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.After-Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+
+}
+
+.Profile-Info{
+    display: flex;
+    gap: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(165, 165, 165);
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Hori{
+    background-color: rgb(184, 184, 184);
+    height: 25px;
+    width: 1px;
+}
+
+.Follow-Edit{
+    margin-right: -5px;
+    display: flex;
+    
+}
+
+.FollowBtn{
+    background-color: #FF5500;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.FollowBtn i{
+    font-size: 14px;
+}
+
+.EditBtn{
+    outline: none;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: transparent;
+    border: .5px solid rgb(177, 177, 177);
+}
+
+.EditBtn i{
+    font-size: 14px;
+}
+
+.SoundProfile{
+    display: flex;
+    
+}
+
+.ProfileUnderContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.SoundImageProfile img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.SoundsProfile{
+    border-right: 0.5px solid rgb(224, 224, 224);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.Wave{
+    
+    margin-left: 10px;
+    display: none;
+}
+
+
+
+.AnotherDiv{
+    width: 470px;
+}
+
+#NoSuccess{
+    display: none;
+}
+
+.Play-Name{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Play-Name button{
+    border: none;
+    outline: none;
+    background-color: #FF5500;
+    color: white;
+    padding: 8px 12px 8px 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Play-Name a{
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.SoundDetProfile{
+    width: 450px;
+}
+
+.DateSpan{
+    font-size: 13px;
+    color: rgb(194, 194, 194);
+}
+
+.CommentImg{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Comments form{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Comments{
+    background-color: rgba(223, 223, 223, 0.801);
+    padding: 7px;
+    margin-left: 25px;
+    border: .5px solid rgb(211, 211, 211);
+    
+}
+
+.Comments form input{
+    width: 100%;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.Reacts{
+    margin-left: 18px;
+}
+
+.Reacts button{
+    border: .5px solid rgb(185, 185, 185);
+    outline: none;
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.SoundsLoading{
+    position: relative;
+    height: 50vh;
+}
+
+.LikedColor{
+    color: #FF5500;
+}
+
+.Liked div{
+    margin-top: 10px;
+}
+
+.SoundDetProfile a{
+    word-break: break-all;
+}
+
+.ReviewComments h5{
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 25px;
+}
+
+.RevComm img{
+    box-shadow: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0px 10px;
+    
+}
+
+.RevComm{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+   
+    
+}
+
+.RevComm p{
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+.RevComm p:nth-child(1){
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 800;
+    line-height: 5px;
+}
+
+.RevComm p:nth-child(2){
+    word-wrap: break-word;
+}
+
+
+
+@media (max-width: 1278px) {
+    .ProfilePicDiv img{
+        width: 150px;
+    }
+    .ProfilePicDiv{
+        top: 26%;
+        left: 4%;
+    }
+
+    .AnotherDiv{
+        display: none;
+    }
+
+    .SoundsProfile{
+        width: fit-content;
+        border-right: none;
+    }
+    .ProfileUnderContainer{
+        justify-content: center;
+    }
+    .SoundDetProfile{
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 1182px) {
+    .ProfilePicDiv img{
+        width: 150px;
+    }
+    .ProfilePicDiv{
+        top: 21%;
+        left: 4%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .ProfilePicDiv img{
+        width: 150px;
+    }
+    .ProfilePicDiv{
+        top: 17%;
+        left: 4%;
+    }
+}
+
+@media (max-width: 982px) {
+    .ProfilePicDiv img{
+        width: 150px;
+    }
+    .ProfilePicDiv{
+        top: 7%;
+        left: 4%;
+    }
+    .Wave{
+        width: 500px;
+    }
+    .SoundDetProfile{
+        width: 450px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Cover{
+        height: 200px;
+    }
+    .InnerProfile{
+        margin: 0;
+    }
+    .ProfilePicDiv img{
+        width: 150px;
+    }
+    .ProfilePicDiv{
+        left: 3%;
+    }
+    .Wave{
+        width: 400px;
+        margin-left: 10px;
+    }
+    .DateSpan{
+        margin-left: 15px;
+    }
+    .SoundDetProfile{
+        text-align: center;
+    }
+
+    .Play-Name a{
+        font-size: 16px;
+        
+    }
+    .SoundDetProfile{
+        margin-top: -10px;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    .Wave{
+        width: 300px;
+    }
+
+    .Play-Name a{
+        font-size: 14px;
+        
+    }
+    .SoundDetProfile{
+        width: 300px;
+    }
+}
+
+@media (max-width: 508px) {
+    .Profile-Info{
+        font-size: 15px;
+    }
+    .FollowBtn{
+        padding: 3px 6px;
+    }
+    .EditBtn{
+        padding: 3px 6px;
+    }
+    .After-Top{
+        padding: 0px 5px;
+    }
+
+    .Wave{
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .SoundImageProfile img{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 483px) {
+    .UploadNewProf{
+        position: absolute;
+        left: 6.5%;
+        bottom: 4%;   
+    }
+    .ProfilePicDiv img{
+        width: 120px;
+    }
+    
+.ProfilePicDiv{
+    top: 24%;
+    left: 7%;
+}
+
+.SoundImageProfile img{
+    width: 100px;
+    height: 100px;
+}
+
+
+}
+
+@media (max-width: 444px) {
+    .Profile-Info{
+        font-size: 13px;
+    }
+    .FollowBtn{
+        padding: 2px 4px;
+        font-size: 13px;
+    }
+    .EditBtn{
+        padding: 2px 4px;
+        font-size: 13px;
+    }
+    .After-Top{
+        padding: 0px;
+    }
+    .SoundDetProfile{
+        width: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Hori{
+        height: 40px;
+    }
+    .Play-Name a{
+        font-size: 14px;
+        
+    }
+    .DateSpan{
+        display: none;
+    }
+    
+    .SoundDetProfile{
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 416px) {
+    .UploadNewProf{
+        position: absolute;
+        left: 7%;
+        bottom: 4%;   
+    }
+}
+
+@media (max-width: 349px) {
+    .UploadNewProf{
+        position: absolute;
+        left: 8%;
+        bottom: 4%;   
+    }
+    .SoundDetProfile{
+        width: auto;
+    }
+    .Play-Name{
+        margin-left: -10px;  
+    }
+}

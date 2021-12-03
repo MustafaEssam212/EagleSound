@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.SearchContainer{
+    background-color: white;
+    margin: 0px 55px;
+    padding: 25px;
+    min-height: 93vh;
+}
+
+.SearchBtns{
+    display: flex;
+    justify-content: center;
+}
+
+.ActiveBtn{
+    background-color: green;
+    width: 100px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: 1px solid green;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.NotActive{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid green;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 5px 10px;
+    font-size: 18px;
+    width: 100px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.UserDiv img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    border: .1px solid rgb(228, 228, 228);
+}
+
+.UserDiv{
+    display: flex;
+    
+}
+
+.UserDivDet {
+    margin-left: 10px;
+}
+
+.UserDivDet a{
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.BackHome{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.BackHome a{
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.UserDivDet div{
+    display: flex;
+    gap: 8px;
+    color: rgb(206, 206, 206);
+    font-size: 15px;
+}
+
+.Users{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.Tracks{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.TrackDiv img{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: .1px solid rgb(228, 228, 228);
+    
+}
+
+.TrackDiv{
+    display: flex;
+    
+}
+
+.TrackDivDet {
+    margin-left: 10px;
+}
+
+.TrackDivDet a{
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.TrackDivDet div{
+    display: flex;
+    gap: 20px;
+    color: rgb(206, 206, 206);
+    font-size: 18px;
+}
+
+.NoResults{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: gray;
+}

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.SignUpContainer{
+    background-image: url('../Pics/bgs.jpg');
+    height: 120vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUp{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;    
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.SignUp h3{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.SignUpForm{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.SignUpForm input, button{
+    margin: 10px;
+}
+
+.SignUpForm input{
+    outline: none;
+    height: 40px;
+    background-color: #e9e9e9;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 10px;
+   
+}
+
+.SignUpForm input::placeholder{
+    color: #020202;
+    font-family: 'Rubik', sans-serif;
+}
+
+.SignUpForm input:focus::placeholder{
+    color: #ff5500;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.SignUpForm button{
+    outline: none;
+    border: none;
+    background-color: #ff5500;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.SignUpIcon{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+
+.SignUpHeader{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.SignUpHeader img{
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+.SignUpLink{
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+
+.SignUpLink a{
+    text-decoration: none;
+}
+
+.SignUpForm h5{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+
+.SignInContainer{
+    height: 120vh;
+    background-image: url('../Pics/bgi.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SignInHeader{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.SignInHeader img{
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+.SignInIcon{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.SignIn{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;    
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.SignInForm{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.SignInForm input, button{
+    margin: 10px;
+}
+
+.SignInForm input{
+    outline: none;
+    height: 40px;
+    background-color: #e9e9e9;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 10px;
+   
+}
+
+.SignInForm input::placeholder{
+    color: #020202;
+    font-family: 'Rubik', sans-serif;
+}
+
+.SignInForm input:focus::placeholder{
+    color: #ff5500;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.SignInForm button{
+    outline: none;
+    border: none;
+    background-color: #ff5500;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.SignInForm h5{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .SignUp {
+        
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .SignUp {
+        
+        width: 350px;
+    }
+}
+
+@media (max-width: 350px) {
+    .SignUp {
+        
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .SignUp {
+        
+        width: 250px;
+    }
+}

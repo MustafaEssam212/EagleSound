@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&family=Zen+Kurenaido&display=swap');
+.InnerUpload{
+    background-color: white;
+    margin: 0px 55px;
+    padding: 25px;
+    height: 95vh;
+}
+
+.UploadInpu{
+    display: none;
+}
+
+.InnerUpload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Upload h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Upload{
+    border: .5px solid rgb(231, 231, 231);
+    width: fit-content;
+    padding: 35px 55px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.Upload label{
+    background-color: #FF5500;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.AfterUpload{
+    padding: 55px;
+    background-color: white;
+    margin: 0px 55px;
+    height: 100vh;
+}
+
+.Progress{
+    width: 550px;
+    margin: auto;
+}
+
+.Progress h3{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.EditUploadInfo{
+    margin-top: 25px;
+}
+
+.LeftUpload{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.LeftUpload img{
+    width: 250px;
+    height: 250px;
+}
+
+.UploadIm{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    position: absolute;
+    right: 23%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+
+.EditUploadInfo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+
+.RightUpload{
+    width: 500px;
+    padding: 0px 25px;
+}
+
+.RightUpload input{
+    width: inherit;
+}
+
+.RightUpload form div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;   
+}
+
+.RightUpload form div label{
+    font-family: 'Saira Condensed', sans-serif;
+    margin-bottom: 5px;
+}
+
+.RightUpload form div input{
+    outline: none;
+    border: .5px solid rgb(201, 201, 201);
+    padding-left: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.RightUpload form div input:focus{
+    border: .5px solid rgb(141, 141, 141);
+}
+
+.RightUpload form div textarea{
+    outline: none;
+    border: .5px solid rgb(201, 201, 201);
+    padding-left: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.RightUpload form div textarea:focus{
+    border: .5px solid rgb(141, 141, 141);
+}
+
+.RightUpload form button{
+    border: none;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #FF5500;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    padding: 3px 8px;
+}
+
+.TagsDiv{
+    position: relative;
+}
+
+#Nothing{
+    display: none;
+}
+
+#BtnAdd{
+    position: absolute;
+    top: 21px;
+    font-size: 12px;
+    right: -7px;
+}
+
+@media (max-width: 832px) {
+    .InnerUpload{
+        margin: 0px;
+    }
+    .AfterUpload{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+    .Progress{
+        width: auto;
+    }
+
+    .EditUploadInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .AfterUpload{
+        height: auto;
+    }
+    .RightUpload{
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .RightUpload{
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .RightUpload{
+        width: 250px;
+    }
+}
+
+@media (max-width: 250px) {
+    .RightUpload{
+        width: 200px;
+    }
+}

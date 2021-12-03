@@ -1,0 +1,199 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+
+@keyframes PopAnim {
+  from{
+    transform: scale(.5, .5);
+    -webkit-transform: scale(.5, .5);
+    -moz-transform: scale(.5, .5);
+    -ms-transform: scale(.5, .5);
+    -o-transform: scale(.5, .5);
+}
+to{
+  transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  -moz-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  -o-transform: scale(1,1);
+}
+}
+
+.ErrorPop{
+  display: flex;
+  background-color: #FA461C;
+  color: white;
+  padding: 20px 10px;
+  gap: 7px;
+  width: 280px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+  animation: PopAnim .3s linear forwards;
+  -webkit-animation: PopAnim .3s linear forwards;
+  margin-top: 10px;
+}
+
+.SuccessPop{
+  display: flex;
+  background-color: #41D888;
+  color: white;
+  padding: 20px 10px;
+  gap: 7px;
+  width: 280px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+  animation: PopAnim .3s linear forwards;
+  -webkit-animation: PopAnim .3s linear forwards;
+  margin-top: 10px;
+}
+
+.SuccessPop div{
+  line-height: 10px;
+  margin-top: 8px;
+}
+
+.PopI{
+  font-size: 30px;
+  
+}
+
+.ErrorPop div{
+  line-height: 10px;
+  margin-top: 8px;
+}
+
+.PopTitle{
+  font-family: 'Roboto', sans-serif;
+}
+
+.PopMess{
+  font-family: 'Tajawal', sans-serif;
+  line-height: 20px;
+}
+
+.PopClose{
+  font-size: 13px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.Errors{
+  position: absolute;
+  top: 85px;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.Nothing{
+  display: none;
+}
+
+.PopMess a{
+  color: white;
+  
+}
+
+
+
+@keyframes PopWin {
+  from{
+    top: -610px;
+  }to{
+    top: 0;
+  }
+}
+
+.PopWindow{
+  height: 100vh;
+  position: fixed;
+  top: -610px;
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  animation: PopWin .5s linear forwards;
+  -webkit-animation: PopWin .5s linear forwards;
+}
+
+.InnerPopWin{
+  width: 50%;
+  background-color: white;
+  height: fit-content;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 25px 0px;
+  position: relative;
+}
+
+.InnerPopWin img{
+  width: inherit;
+  box-shadow: 0px 0px 10px gray;
+  display: block;
+  margin: 15px auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.PopWinBtn{
+  background-color: #FF5500;
+  display: block;
+  margin: auto;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 5px 11px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.PopWinClose{
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 510px) {
+  .InnerPopWin{
+    width: 100%;
+    margin: 0px 10px;
+  }
+  .InnerPopWin img{
+    width: 50%;
+  }
+}

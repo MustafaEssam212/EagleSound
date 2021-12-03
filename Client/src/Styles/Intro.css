@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header{
+    position: relative;
+    
+}
+
+
+
+.InnerIntroContainer{
+    margin: 0px 55px;
+}
+
+
+header nav img{
+    height: 70px;
+    width: 70px;
+    margin-left: 15px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    top: 0; 
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    outline: none;
+}
+
+header nav ul li{
+    margin: 0px 15px;
+}
+
+header nav ul a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+}
+
+.FirstA a{
+    border: 1px solid white;
+    padding: 5.8px 17px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.SecondA a{
+    background-color: #FF5500;
+    padding: 7px 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+header nav ul a:hover{
+    color: white;
+}
+
+.TextDis{
+    position: absolute;
+    color: white;
+    top: 30%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.InnerText{  
+    text-align: center;
+}
+
+.InnerText p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 35px;
+}
+
+.InnerText h2{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.CenterA{
+    
+    text-decoration: none;
+    color: white;
+    background-color: #FF5500;
+    padding: 13px 25px 15px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.CenterA:hover{
+    color: white;
+}
+
+
+.afterHeader{
+    background-color: white;
+}
+
+.SearchOrUpload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.SearchOrUpload input{
+    width: 450px;
+    height: 45px;
+    outline: none;
+    background-color: #F2F2F2;
+    border: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.SearchOrUpload input::placeholder{
+    color: rgba(128, 128, 128, 0.651);
+    padding-left: 10px;
+}
+
+.SearchOrUpload a{
+    background-color: #FF5500;
+    color: white;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 10px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.SearchOrUpload form{
+    position: relative;
+}
+.SearchOrUpload form button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+    
+}
+
+.Trend h4{
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.MainSoundA{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    text-decoration: none;
+    position: relative;
+}
+
+.MainSoundA i{
+    position: absolute;
+    bottom: 38%;
+    right: 31%;
+    font-size: 45px;
+    color: white;
+    background-color: #FF5500;
+    padding: 15px 15px 15px 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   
+    display: none;
+}
+
+
+
+.MainSoundA:hover #PlayIcon{
+    display: block;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.MainSoundA img{
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.MainSoundA a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+#Artist{
+    font-size: 13px;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+    color: rgb(192, 192, 192);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Artist:hover{
+    color: black;
+}
+
+.Sounds{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0px 15px;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.thirdPart{
+    margin: 55px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+.thirdPart div{
+    width: 400px;
+    text-align: center;
+}
+
+.thirdPart div div{
+    width: 105px;
+    height: 3px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(68, 27, 27), #FF5500);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.thirdPart h1{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.thirdPart h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+.fourthPart{
+ position: relative;  
+ height: fit-content;
+ 
+}
+
+.fourthPart p{
+    width: 350px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    color: white;
+    margin-top: 150px;
+    font-size: 18px;
+}
+
+.fifthPart{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.fifthPart h2, h4{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 5px;
+}
+
+.fifthCreate{
+    background-color: #FF5500;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.fifthCreate:hover{
+    color: white;
+}
+
+.fifthPart div {
+    display: flex;
+    align-items: center;
+}
+
+.fifthPart div a {
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 5px 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    transition: .3s all linear;
+    -webkit-transition: .3s all linear;
+    -moz-transition: .3s all linear;
+    -ms-transition: .3s all linear;
+    -o-transition: .3s all linear;
+}
+
+.fifthPart div a:hover{
+    color: black;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+@media (max-width: 1043px) {
+    .thirdPart{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+}
+@media (max-width: 832px) {
+    .InnerIntroContainer{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 690px) {
+    .TextDis{
+        display: none;
+    }
+}
+
+@media (max-width: 394px) {
+    header nav ul li{
+        margin: 0px 5px;
+    } 
+    header nav img{
+        margin-left: 5px;
+    }  
+}
